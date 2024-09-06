@@ -1,0 +1,90 @@
+.airdrop_card {
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.04);
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 8px;
+
+    h5 {
+        margin: 0px 0px 8px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        color: rgba(255, 255, 255, 0.88);
+    }
+
+    p {
+        margin: 0px 0px 24px;
+        font-family: "Libre Franklin", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.52);
+    }
+
+    .airdrop_detail {
+        display: flex;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        margin-bottom: 8px;
+
+        p {
+            margin: 0px;
+            font-family: "Libre Franklin", sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            color: rgba(255, 255, 255, 0.88);
+        }
+    }
+
+    .airdrop_button {
+        text-decoration: none;
+        margin-top: 20px;
+
+        button {
+            border-radius: 6px;
+            width: 100%;
+            box-shadow: none;
+            text-transform: none;
+            background: rgba(255, 255, 255, 0.04);
+            font-weight: 600;
+            font-family: Inter, sans-serif;
+            padding: 12px 24px;
+            height: 48px;
+            font-size: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: rgba(255, 255, 255, 0.88) !important;
+        }
+    }
+
+    .airdrop_amountinput {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+
+        div:before {
+            border: none !important;
+        }
+
+        input {
+            color: white;
+        }
+    }
+
+    .airdrop_address {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            width: 100%;
+        }
+
+        div:before {
+            border: none !important;
+        }
+
+        input {
+            color: white;
+        }
+    }
+}

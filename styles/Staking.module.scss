@@ -1,0 +1,214 @@
+.staking_leftcard {
+    background: rgba(255, 255, 255, 0.04);
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.88);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+    &_header {
+        overflow: hidden;
+        min-height: 48px;
+        display: flex;
+    }
+
+    &_content {
+        background: rgba(255, 255, 255, 0.04);
+        padding: 18px;
+
+        &_input {
+            display: inline-flex;
+            flex-direction: column;
+            position: relative;
+            min-width: 0px;
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            vertical-align: top;
+            width: 100%;
+
+            a {
+                display: flex;
+                justify-content: flex-end;
+                cursor: pointer;
+                margin-top: 10px;
+            }
+
+            label {
+                margin: 0px;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                color: rgba(255, 255, 255, 0.88);
+            }
+
+            .deposit_input {
+                display: flex;
+                background-color: rgba(255, 255, 255, 0.04);
+                border-radius: 6px;
+                padding: 12px 16px;
+                height: 48px;
+                border: 1px solid rgba(255, 255, 255, 0.11);
+                font-family: "Libre Franklin", sans-serif;
+                line-height: 24px;
+                color: rgba(255, 255, 255, 0.88);
+                cursor: auto;
+                margin-top: 8px !important;
+            }
+
+            .deposit_name {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                max-height: 2em;
+                width: 100%;
+                white-space: nowrap;
+                color: rgb(255, 255, 255);
+                margin-right: 8px;
+
+                span {
+                    margin: 0px;
+                    font-family: "Libre Franklin", sans-serif;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: rgba(255, 255, 255, 0.88);
+                }
+
+                input {
+                    font-size: 16px;
+                    cursor: auto;
+                    font: inherit;
+                    letter-spacing: inherit;
+                    color: currentcolor;
+                    border: 0px;
+                    box-sizing: content-box;
+                    background: none;
+                    height: 1.4375em;
+                    margin-left: 10px;
+                    display: block;
+                    min-width: 0px;
+                    width: 100%;
+                    animation-name: mui-auto-fill-cancel;
+                    animation-duration: 10ms;
+                }
+
+                input:focus-visible {
+                    outline: none;
+                }
+
+                div {
+                    display: flex;
+                    max-height: 2em;
+                    align-items: center;
+                    white-space: nowrap;
+                    color: rgb(255, 255, 255);
+                    margin-left: 8px;
+
+                    button {
+                        color: rgb(34, 237, 166);
+                        background-color: transparent;
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+        }
+
+        .connect_button {
+            margin-top: 32px;
+            margin-bottom: 32px;
+
+            button {
+                border-radius: 6px;
+                width: 100%;
+                box-shadow: none;
+                text-transform: none;
+                background: rgb(34, 237, 166);
+                font-family: Inter, sans-serif;
+                padding: 12px 24px;
+                height: 48px;
+                font-size: 16px;
+                font-weight: 600;
+                color: rgba(33, 33, 33, 0.72) !important;
+            }
+        }
+    }
+}
+
+.staking_rightcard {
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.04);
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 8px;
+
+    h6 {
+        margin: 0px 0px 8px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.88);
+    }
+
+    .staking_detail {
+        margin-bottom: 20px;
+
+        .staking_apy {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-weight: 600;
+            margin-bottom: 8px;
+
+            p {
+                margin: 0px;
+                font-family: "Libre Franklin", sans-serif;
+                font-size: 14px;
+                line-height: 20px;
+                color: rgba(255, 255, 255, 0.88);
+            }
+        }
+
+        .staking_total {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 8px;
+
+            p {
+                margin: 0px;
+                font-family: "Libre Franklin", sans-serif;
+                font-size: 14px;
+                line-height: 20px;
+                color: rgba(255, 255, 255, 0.88);
+            }
+        }
+
+        h6 {
+            margin: 32px 0px 8px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            color: rgba(255, 255, 255, 0.88);
+        }
+    }
+
+    .staking_button {
+        text-decoration: none;
+
+        button {
+            border-radius: 6px;
+            width: 100%;
+            box-shadow: none;
+            text-transform: none;
+            background: rgba(255, 255, 255, 0.04);
+            font-weight: 600;
+            font-family: Inter, sans-serif;
+            padding: 12px 24px;
+            height: 48px;
+            font-size: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: rgba(255, 255, 255, 0.88) !important;
+        }
+    }
+}

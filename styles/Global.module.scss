@@ -1,0 +1,53 @@
+.container {
+    margin: 0px 0px 0px 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 100%;
+
+    .title {
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+        box-sizing: border-box;
+        margin-top: -16px;
+        width: calc(100% + 16px);
+        margin-left: -16px;
+
+        div {
+            color: white;
+            padding: 16px 0px 0px 16px;
+            margin-bottom: 16px;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+        }
+    }
+
+    p {
+        margin: 0px 0px 32px;
+        font-family: "Libre Franklin", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.88);
+    }
+
+    .content {
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: -24px;
+        width: calc(100% + 24px);
+        margin-left: -24px;
+
+        .MuiGrid-item {
+            padding-left: 24px;
+            padding-top: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .container {
+        margin: 0;
+    }
+}

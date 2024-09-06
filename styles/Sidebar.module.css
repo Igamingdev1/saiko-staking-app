@@ -1,0 +1,25 @@
+@media screen and (max-width: 990px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .sidebar {
+        display: block;
+    }
+}
+
+.link a {
+    display: block;
+    padding: 9px 16px;
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.52);
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    border-radius: 8px;
+    transition: color 350ms ease 0s;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
